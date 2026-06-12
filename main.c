@@ -1,9 +1,12 @@
 #include <stdio.h>
 
+#include "blackjack.h"
+#include "roulette.h"
+
 char *choices[] = {
-        "Blackjack",
-        "Roulette"
-    };
+    "Blackjack",
+    "Roulette"
+};
 
 int numberOfChoices = sizeof(choices) / sizeof(choices[0]);
 
@@ -37,11 +40,10 @@ void main() {
             stillPlaying = 0;
         } else if (choice == 1) {
             printChosenGame(choice-1);
-            // playBlackjack();
+            playBlackjack();
         } else if (choice == 2) {
             printChosenGame(choice-1);
-            // playRoulette();
+            playRoulette();
         }
     }
-    
 }
