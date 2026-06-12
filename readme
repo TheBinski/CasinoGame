@@ -1,0 +1,2 @@
+1. Make sure to have `gcc` and `make` installed for `UCRT64`
+2. Use the `make <command from makefile>` to build or clean the project
