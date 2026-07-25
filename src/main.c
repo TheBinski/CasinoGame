@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "blackjack.h"
-#include "roulette.h"
+#include "games/blackjack.h"
+#include "games/roulette.h"
 
 char *choices[] = {
     "Blackjack",
